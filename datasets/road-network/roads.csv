@@ -1,0 +1,11 @@
+Source,Destination,Weight,Road_Type
+A,B,5,Highway
+A,C,3,Local
+B,D,7,Highway
+C,D,2,Local
+D,E,4,Regional
+B,E,6,Regional
+C,F,8,Local
+E,F,3,Highway
+B,C,2,Local
+F,G,5,Regional

@@ -1,0 +1,38 @@
+export const algorithms = [
+  {
+    id: 'bubble-sort',
+    name: 'Bubble Sort',
+    description: 'A simple comparison-based sort. Repeatedly swaps adjacent elements that are out of order.',
+    category: 'Sorting',
+    complexity: 'O(n²)',
+    useCase: 'A great beginner-friendly way to understand how sorting works step by step.',
+    highlights: ['Compares adjacent values', 'Swaps out-of-order pairs', 'Ideal for teaching fundamentals'],
+  },
+  {
+    id: 'selection-sort',
+    name: 'Selection Sort',
+    description: 'Selects the smallest element and places it at the beginning, repeating for each position.',
+    category: 'Sorting',
+    complexity: 'O(n²)',
+    useCase: 'Useful for showing how a minimum is found and placed in each pass.',
+    highlights: ['Finds the minimum each pass', 'Builds the sorted section from left to right', 'Easy to follow visually'],
+  },
+  {
+    id: 'insertion-sort',
+    name: 'Insertion Sort',
+    description: 'Builds a sorted section by inserting each new element into the right position.',
+    category: 'Sorting',
+    complexity: 'O(n²)',
+    useCase: 'A strong example of incremental construction for ordered data.',
+    highlights: ['Shifts larger values right', 'Inserts each new item into place', 'Performs well on small lists'],
+  },
+  {
+    id: 'binary-search',
+    name: 'Binary Search',
+    description: 'Searches a sorted array by repeatedly dividing the search interval in half.',
+    category: 'Searching',
+    complexity: 'O(log n)',
+    useCase: 'Fast lookup for large sorted collections and databases.',
+    highlights: ['Uses a midpoint each step', 'Cuts the search space in half', 'Requires a sorted list'],
+  },
+]

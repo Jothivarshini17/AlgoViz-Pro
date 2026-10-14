@@ -1,0 +1,18 @@
+{
+  "name": "Road Network Dataset",
+  "source": "Kaggle-ready transportation dataset",
+  "author": "To be confirmed by the acquisition workflow before redistribution",
+  "sourceUrl": "https://www.kaggle.com/search?q=road+network+dataset",
+  "description": "Road connectivity and edge weight data for BFS, DFS, Dijkstra, and graph analysis workflows.",
+  "rows": 1800,
+  "columns": 6,
+  "format": "CSV",
+  "license": "Review the original Kaggle dataset license before bundling or redistribution.",
+  "supportedAlgorithms": [
+    "BFS",
+    "DFS",
+    "Dijkstra",
+    "Prim",
+    "Kruskal"
+  ]
+}

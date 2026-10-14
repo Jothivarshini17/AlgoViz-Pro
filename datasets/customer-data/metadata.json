@@ -1,0 +1,17 @@
+{
+  "name": "Customer Data Dataset",
+  "source": "Kaggle-ready customer dataset",
+  "author": "To be confirmed by the acquisition workflow before redistribution",
+  "sourceUrl": "https://www.kaggle.com/search?q=ecommerce+customer+dataset",
+  "description": "Customer records for hash lookups, filtering, and segmentation exercises.",
+  "rows": 3000,
+  "columns": 9,
+  "format": "CSV",
+  "license": "Review the original Kaggle dataset license before bundling or redistribution.",
+  "supportedAlgorithms": [
+    "Hash Search",
+    "Linear Search",
+    "Quick Sort",
+    "Binary Search"
+  ]
+}
