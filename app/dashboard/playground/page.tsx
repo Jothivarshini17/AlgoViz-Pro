@@ -1,5 +1,5 @@
 
-type StepState = {"use client";
+"use client";
 
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
@@ -21,6 +21,7 @@ import {
   parseArrayInput,
 } from "@/lib/playground-algorithms";
 
+type StepState = {
   array: number[];
   compare: number[];
   target?: number;
